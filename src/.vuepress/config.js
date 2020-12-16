@@ -281,6 +281,20 @@ module.exports = {
         src: 'https://extend.vimeocdn.com/ga/72160148.js',
         defer: 'defer'
       }
+    ],
+    [
+      'script',
+      {
+        src: 'https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js',
+      }
+    ],
+    [
+      'link',
+      {
+        href:
+          'https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css',
+        rel: 'stylesheet'
+      }
     ]
   ],
   themeConfig: {
